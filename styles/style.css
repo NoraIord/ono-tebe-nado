@@ -202,12 +202,7 @@
 
 }
 
-.overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 0;
-    inset: 0;
-}
+
 
 .lots_card-list {
     display: grid;
@@ -354,13 +349,7 @@
     text-underline-offset: 4px;
 }
 
-.address {
-    font-style: normal;
-    font-size: 18px;
-    line-height: 24px;
-    text-decoration: dashed;
 
-}
 
 .address_footer {
     margin-right: auto;
@@ -392,10 +381,6 @@
     display: flex;
     justify-self: end;
     gap: 48px;
-
-}
-
-.footer_social-link {
 
 }
 
