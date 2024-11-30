@@ -48,10 +48,6 @@
     margin-left: auto;
 }
 
-.address_list {
-    list-style: none;
-}
-
 .address_link {
     font-style: normal;
     font-size: 18px;
@@ -72,6 +68,7 @@
     flex-direction: column;
     font-size: 18px;
     line-height: 24px;
+    list-style: none;
 }
 
 .cover {
@@ -201,8 +198,6 @@
     z-index: 2;
 
 }
-
-
 
 .lots_card-list {
     display: grid;
@@ -348,8 +343,6 @@
     margin: 161px 50px 88px 50px;
     text-underline-offset: 4px;
 }
-
-
 
 .address_footer {
     margin-right: auto;
