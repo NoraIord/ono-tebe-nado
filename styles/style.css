@@ -203,11 +203,12 @@
 
 .lots_card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     list-style: none;
     padding-bottom: 30px;
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;
+     извините, я не понимаю что от меня требуется,в первый раз вы сказали указать flex-wrap с соответствующим значением, я поставила wrap,во второй раз вы сказали снова изменить значение flex-wrap, теперь же вы сказали вообще убрать его, я просто не очень понимаю задачу*/
 }
 
 .lots_card-list_item {
